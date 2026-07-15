@@ -8,9 +8,9 @@
 #conditional statements: else; if; elsif. useful with comparison operators and logical operators.
 #python relies on indentation
 
-age = 20
-if age >= 20:
-    print ("eligible")
+# age = 20
+# if age >= 20:
+#     print ("eligible")
 
 # elif is short for else if. checks multiple conditions. 
 #if condition:
@@ -57,10 +57,30 @@ if age >= 20:
 #     print(number)
 #prints numbers 20-50, only even numbers.
 
-for number in range(20-51):
-    if number % 2 == 0
+# for number in range(20-51):
+#     if number % 2 == 0
 
 ## while loops
 #while condition
 #   block of code
 
+
+secret_num = 22
+
+user_guess = int(input("Guess a whole number. "))
+
+count = 1
+
+while user_guess != secret_num:
+    if count > 5:
+        break
+    if user_guess < secret_num:
+        print("your guess is too low.")
+    else:
+        print("your guess is too high")
+    user_guess = int(input("Guess a whole number. "))
+    count += 1
+if user_guess == secret_num:
+    print(f"yay you guessed the right number after {count} tries, {user_guess}!")
+else:
+    print("better luck next time.")

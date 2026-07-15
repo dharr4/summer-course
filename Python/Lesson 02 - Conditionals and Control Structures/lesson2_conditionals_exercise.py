@@ -60,6 +60,7 @@
 
 user_str = input("Type some string here. ")
 
+
 if user_str > len(10):
     print("this string is long")
 else:
