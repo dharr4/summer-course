@@ -1,0 +1,4 @@
+#morning exercise
+
+import random
+
