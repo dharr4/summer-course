@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from area import rectangle_area, circle_area, tri_area
 
 print(rectangle_area(3, 10))
@@ -5,3 +6,12 @@ print(rectangle_area(3, 10))
 radius = 15
 print(f' area of a circle with radius {radius} is {circle_area(radius):0.2f}. ')
 
+=======
+
+
+passenger_list = ["Lopez", "Chen", "Okafor", "Smith", "Patel"]
+
+for index, passenger in enumerate(passenger_list, 1):
+    print(f"Passenger {passenger} in seat {index}")
+
+>>>>>>> 1ff53700d92a33e6ab5b374eab1df258a69d0956
